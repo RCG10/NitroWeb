@@ -1,0 +1,94 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux system files
+*.swp
+*.swo
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Ignore build directories
+/dist/
+/build/
+
+# Ignore dependency directories
+/vendor/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Java compiled files
+*.class
+
+# Ignore Java IDE files
+*.iml
+*.ipr
+*.iws
+/.idea/
+
+# Ignore JavaScript build files
+*.min.js
+*.bundle.js
+*.map
+
+# Ignore Ruby specific files
+*.gem
+*.rbc
+.rspec
+/.bundle
+/log
+/tmp
+
+# Ignore Go specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Rust specific files
+/target/
+
+# Ignore C++ specific files
+*.out
+*.o
+*.obj
+*.exe
+
+# Ignore .NET specific files
+*.dll
+*.pdb
+*.exe
+*.app
+
+# Ignore C# specific files
+*.csproj.user
+*.csproj.core
+*.sln.docstates
